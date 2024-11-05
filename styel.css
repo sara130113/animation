@@ -1,0 +1,353 @@
+body {
+  width: 100%;
+  /* background-color: rgba(0, 76, 255, 0.459); */
+}
+
+.neko {
+  /* background-color: aqua; */
+  width: 25%;
+  margin: 200px auto;
+  position: relative;
+}
+
+.neko:hover {
+  .cat-tail {
+    animation: sippo 3s infinite;
+  }
+  .cat-eye3,
+  .cat-eye4 {
+    animation: mabataki 2s infinite;
+  }
+}
+
+
+.cat-body {
+  width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 0 50% 3px 0;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  cursor: grab;
+}
+
+.cat-leg {
+  width: 15px;
+  height: 10px;
+  background: black;
+  border-radius: 40%;
+  position: absolute;
+  top: 295px;
+  left: 95px;
+  cursor: grab;
+}
+
+.cat-leg2 {
+  width: 15px;
+  height: 10px;
+  background: black;
+  border-radius: 40%;
+  position: absolute;
+  top: 297px;
+  left: 120px;
+  cursor: grab;
+}
+
+.cat-tail {
+  width: 130px;
+  height: 8px;
+  background: black;
+  border-radius: 90%;
+  position: absolute;
+  top: 292px;
+  left: 150px;
+  cursor: grab;
+}
+
+.cat-face {
+  width: 90px;
+  height: 65px;
+  background: black;
+  border-radius: 20%;
+  position: absolute;
+  top: 140px;
+  left: 85px;
+  cursor: grab;
+}
+
+.cat-eye {
+  width: 20px;
+  height: 20px;
+  background: rgb(43, 122, 43);
+  border-radius: 50%;
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  cursor: grab;
+}
+
+.cat-eye2 {
+  width: 20px;
+  height: 20px;
+  background: rgb(43, 122, 43);
+  border-radius: 50%;
+  position: absolute;
+  top: 160px;
+  left: 138px;
+  cursor: grab;
+}
+
+.cat-eye3 {
+  width: 20px;
+  height: 20px;
+  background: black;
+  position: absolute;
+  top: 140px;
+  left: 138px;
+  cursor: grab;
+}
+
+
+
+.cat-eye4 {
+  width: 20px;
+  height: 20px;
+  background: black;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  cursor: grab;
+}
+
+.cat-pupil {
+  width: 10px;
+  height: 15px;
+  background: black;
+  border-radius: 98%;
+  position: absolute;
+  top: 162px;
+  left: 105px;
+  cursor: grab;
+}
+
+.cat-pupil2 {
+  width: 10px;
+  height: 15px;
+  background: black;
+  border-radius: 98%;
+  position: absolute;
+  top: 162px;
+  left: 143px;
+  cursor: grab;
+}
+
+.cat-ear {
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid black;
+  position: absolute;
+  top: 125px;
+  left: 85px;
+
+}
+
+.cat-ear2 {
+  border-top: 20px solid transparent;
+  border-right: 20px solid black;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  top: 125px;
+  left: 155px;
+}
+
+.heart1 {
+  position: absolute;
+  top: 120px;
+  left: 75px;
+  animation-name: move-around;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+}
+
+.heart2 {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  animation-name: move-around1;
+  animation-duration: 3.3s;
+  animation-iteration-count: infinite;
+  z-index: -1000;
+}
+
+.heart3 {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  animation-name: move-around2;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  z-index: -1000;
+}
+
+.heart4 {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  animation-name: move-around3;
+  animation-duration: 3.7s;
+  animation-iteration-count: infinite;
+  z-index: -1000;
+}
+
+.heart5 {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  animation-name: move-around4;
+  animation-duration: 1.9s;
+  animation-iteration-count: infinite;
+  z-index: -1000;
+}
+
+.heart6 {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  animation-name: move-around5;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  z-index: -1000;
+}
+
+.heart7 {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  animation-name: move-around6;
+  animation-duration: 3.3s;
+  animation-iteration-count: infinite;
+  z-index: -1000;
+}
+
+@keyframes move-around {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+
+  50% {
+    transform: translate(-40px, -85px);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+
+
+
+@keyframes move-around1 {
+  0% {
+    transform: scale(0.5,0.5);
+  }
+
+  50% {
+    transform: translate(-20px, -70px);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes move-around2 {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+
+  50% {
+    transform: translate(0px, -75px);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes move-around3 {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+
+  50% {
+    transform: translate(30px, -85px);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes move-around4 {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+
+  50% {
+    transform: translate(60px, -75px);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes move-around5 {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+
+  50% {
+    transform: translate(0px, -55px);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes move-around6 {
+  0% {
+    transform: scale(0.5, 0.5);
+  }
+
+  50% {
+    transform: translate(80px, -85px);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes sippo {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(45deg) translateX(-20px) translateY(16px);
+  }
+}
+
+@keyframes mabataki {
+  0% {
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
